@@ -1,0 +1,129 @@
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
+
+.footer {
+  background-color: #cf3030;
+  margin: 0px auto;
+  color: #020202;
+  padding: 20px 0px; }
+  .footer a{
+      color: #020202;
+      text-decoration: none;
+      outline: none;
+  }
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #bb4343;
+  color: floralwhite; }
+
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
+
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
+
+.navbar-dark {
+  background-color: #da1515; }
+
+.tab-content {
+  border-left: 1px solid rgb(238, 6, 6);
+  border-right: 1px solid rgb(238, 6, 6);
+  border-bottom: 1px solid rgb(238, 6, 6);
+  padding: 10px; }
+
+.carousel {
+  background: #cf0b0b; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
+
+#carouselButton {
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
+
+.modal-header {
+  background-color: #db0f0f;
+  color: floralwhite; }
+  .modal-header .close {
+    background-color: #db0f0f;
+    color: floralwhite; }
+    .modal-header .close:hover{
+      background-color: #1f0101;
+    }
+.modal-title{
+  margin: 0 auto;
+}
+.modal-body {
+  background-color: #c5525b; }
+
+.right {
+  padding-left: 70%; }
+.top{
+  padding-top: 20px;
+}
+.bottom {
+  padding-bottom: 50px;
+}
+.img-logo{
+  border-radius: 50%;
+}
+
+   /* social bootstrap */
+   .field {
+    display: flex;
+    width: 330px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .sns-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: none;
+    transition-duration: .5s;
+    transform: rotateX(45deg);
+    box-shadow: 0px 10px 5px rgba(0, 0, 0, .3);
+    cursor: pointer; }
+    .sns-btn--twitter {
+      background-color: #1da1f2;
+    }
+    .sns-btn--facebook {
+      background-color: #3b5998;
+    }
+    .sns-btn--instagram {
+      background-color: #dd2b75;
+    }
+    .sns-btn--google {
+      background-color: #a72020;
+    }
+    .sns-btn--linkedin{
+      background-color: #0c24af;
+    }
+    .sns-btn--mail {
+      background-color: #1c1f25;
+    }
+    .sns-btn:hover {
+      transform: scale(1.2);
+      box-shadow: none;
+    }
+    .sns-btn__icon {
+      font-size: 33px;
+      letter-spacing: 0.1em;
+      color: #fff;
+    }
